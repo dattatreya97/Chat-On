@@ -2,5 +2,5 @@
 A simple chat application 
 
 <ul>Things to Do</ul>
-<b>1.Add file transfer support</b>
+<b>1.Add file transfer support</b><br>
 <b>2.Save all chats in PDF</b>
