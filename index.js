@@ -28,5 +28,8 @@ io.on('connection', function(socket){
             message:data.message,
             username:socket.username
         });
+    });
+    socket.on('typing',function(data){
+        socket.broadcast.emit('typing',{username:socket.username});
     })
 });
